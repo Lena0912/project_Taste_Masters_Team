@@ -1,0 +1,15 @@
+.btn-dishes {
+    border: none;
+}
+.button-container {
+    width: 326px;        
+    height: 198px;        
+    overflow: auto;       
+    border: 0;
+}  
+::-webkit-scrollbar {
+    width: 8px;
+    height: 116px;
+    border-color: black;
+    border-radius: 12px;
+}
