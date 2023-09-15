@@ -40,13 +40,7 @@ color: var(--txt-cl-100-light-theme);
 margin-bottom: 8px;
 }
 
-.categories-description {
-    font-size: 12px;
-    line-height: 1.33;
-    color: var(--txt-cl-80-light-theme);
-    text-overflow: ellipsis;    
-    overflow: hidden;
-}
+
 .categories-box {
     display: flex;
     width: 332px;
@@ -62,5 +56,20 @@ margin-bottom: 8px;
 
 }
 .categories-items {
-    
+   width: 255px; 
 }
+.categories-descr-text {
+    width: 255px;
+    height: 41px;
+    /* white-space: nowrap; */
+/* border: 1px solid #ccc; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.categories-description {
+    font-size: 12px;
+    line-height: 1.33;
+    color: var(--txt-cl-80-light-theme);
+    padding: 5px;
+}
+
